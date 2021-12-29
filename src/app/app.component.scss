@@ -1,0 +1,39 @@
+:host {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+.app-bar {
+  height: max-content;
+  min-width: min-content;
+}
+.button {
+  margin: 0 8px 0 0;
+  height: max-content;
+  min-width: min-content;
+  color: hsla(var(--igx-surface-500));
+}
+.button_1 {
+  color: hsla(var(--igx-surface-500));
+}
+.navbar_title_bar {
+  margin: 0 0 0 1rem;
+}
+.group {
+  flex-wrap: wrap;
+  align-items: stretch;
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+  flex-basis: 0;
+  background-color: hsla(var(--igx-grays-900));
+  flex-grow: 1;
+}
+.view-container {
+  flex-grow: 1;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+}
